@@ -1,0 +1,23 @@
+public class MyClass {
+    public static void main(String args[]) {
+      Integer[] array = {1, 8, 0, 3, 4, 20, 19};
+        
+        int tempVal = 0;
+        for (int i= 0; i < (array.length-1); i++) {
+            if (array[i] > array[i+1]) {
+                tempVal = array[i+1];
+                array[i+1] = array[i];
+                array[i] = tempVal;
+            }
+            if ((i != 0) && (array[i-1] > array[i])) {
+                tempVal = array[i-1];
+                array[i-1] = array[i];
+                array[i] = tempVal;
+            }
+        }
+        
+        for (int num : array) {
+           System.out.println(num); 
+        }
+    }
+}
