@@ -7,3 +7,6 @@ Linear Search:
 
 Binary Search:
 - The time complexity of the binary search is O(log n) because with each iteration, the size of the search space is reduced by half. At each iteration, the algorithm divides the search space in half by comparing the target value with the middle element of the array.
+
+Two Pointers:
+- The time complexity is O(n) where n is the number of elements in the array we are iterating through. This is because we are only iterating through the array once using two pointers, and the number of iterations is directly proportional to the length of the array.
