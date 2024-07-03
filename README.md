@@ -13,4 +13,4 @@ Two Pointers:
 
 Recursion:
 - A function that solves a problem by solving smaller instances of the same problem. The function continues to call itself until a base case is reached and then all of the function calls pop off the stack starting with the last one (FILO).
-- The time complexity
+- The time complexity is O(n) because with recursion used to calculate the sum of numbers from 1 to n, where n is the input number. The space complexity is also O(n) because the recursive calls are stored on the call stack until the base case is reached and the calls are popped off the stack.
